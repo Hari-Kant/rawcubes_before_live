@@ -1,0 +1,164 @@
+<div class="blog-side-navbar">
+        <!--search input code-->
+        <div class="mb-4">
+                <label for="Search"><b>Search</b></label>
+                <div class="row column">
+                        <div class="col-12 col-lg-9 search-input">
+                                <input type="text" class="form-control" id="myInput" aria-label="Search" required>
+                        </div>
+                        <div class="col-12 col-lg-3 text-center">
+                                <button type="button" class="btn btn-primary col-12"
+                                        onclick="onSearch()">Search</button>
+                        </div>
+                </div>
+        </div>
+        <!--end-->
+        <!--recent post code-->
+        <div class="recent-posts">
+                <h3>Recent Posts</h3>
+                <ul class="list-unstyled" id="myUL">
+                        <li><a href="../../../blog/2023/oct/the-roi-of-idataops-in-industrial-settings.html">Reducing Downtime and Costs: The ROI of iDataOps in Industrial Settings</a></li> 
+                        <!-- <li><a href="../../../blog/2023/jul/how-do-machine-monitoring-solutions-enable-intelligent-machine-maintenance.html">How
+                                        do machine monitoring solutions enable intelligent machine
+                                        maintenance?</a></li>-->
+                        <li><a href="../../../blog/2023/aug/what-is-asset-maintenance-management.html">What Is Asset Maintenance Management: Explore its Definition, Strategies for Enhancement, and Examples</a></li> 
+                        <li><a href="../../../blog/2023/jun/how-smart-supply-chain-management-is-adding-value-in-industry-4.html">How
+                                        Smart Supply Chain Management is Adding Value in Industry 4.0?</a></li>
+                        <li><a href="../../../blog/2023/jun/what-is-data-modernization-and-why-you-should-pay-attention.html">What
+                                        is Data Modernization? And Why You Should Pay Attention?</a></li>
+                        <!-- <li><a href="../../../blog/2023/jun/unleash-the-power-of-modern-data-systems.html">Data
+                                        Modernization Assessment: Unleash the power of modern data systems</a></li> -->
+                        <li><a href="../../../blog/2023/may/unlocking-industry-with-the-converged-four-dataOps.html">Unlocking
+                                        Industry 4.0 with the Converged Four C's for DataOps</a></li>
+                        <li><a href="../../../blog/2023/apr/what-is-in-store-for-industrial-dataops-in-2023.html">What’s
+                                        In Store For Industrial DataOps In 2023?</a></li>
+                        <li><a href="../../../blog/2023/apr/why-is-a-data-driven-assessment-important-for-manufacturers.html">Why
+                                        is a Data-Driven Assessment Important for Manufacturers?</a></li>
+                        <li><a href="../../../blog/2023/apr/the-role-of-idataops-in-smart-machine-maintenance.html">The
+                                        Role Of iDataOps in Smart Machine Maintenance</a></li>
+                        <li><a href="../../../blog/2023/apr/the-driving-force-for-digital-transformation.html">iDataOps:
+                                        The Driving Force for Digital Transformation</a></li>
+                        <li><a href="../../../blog/2023/mar/how-idataops-is-shaping-industry-4.html">How
+                                        iDataOps is Shaping Industry 4.0?</a></li>
+                        <li><a href="../../../blog/2023/mar/machine-monitoring-platform-with-expert-insights-from-our-cto-khem-chand.html">Uncovering
+                                        iDataOps: Machine Monitoring Platform with Expert Insights from our CTO, Khem
+                                        Chand</a></li>
+                        <!-- <li><a  href="../../../blog/2023/feb/unlocking-industry-4.0-with-the-converged-four-c-for-dataops.html">Unlocking Industry 4.0 with the Converged Four C’s for DataOps</a></li> -->
+                        <li><a href="../../../blog/2022/oct/how-to-know-whats-the-right-question-to-ask-from-your-data.html">How
+                                        to
+                                        know what’s the right question to ask from your data?</a></li>
+                        <li><a href="../../../blog/2022/sep/data-modernization-unify-data-with-a-cloud-data-lake-or-cloud-data-warehouse.html">Data
+                                        Modernization: Unify data with a cloud data lake or cloud data warehouse</a>
+                        </li>
+                        <li><a href="../../../blog/2022/jul/enterprise-knowledge-graphs-to-become-a-data-driven-organization.html">Enterprise
+                                        Knowledge Graphs to become a Data Driven Organization</a></li>
+                        <li><a href="../../../blog/2022/jul/data-modernization-why-traditional-data-warehouse-solutions-are-holding-you-back-in-2022.html">Data
+                                        Modernization: Why traditional Data Warehouse Solutions are holding you back in
+                                        2022</a></li>
+                        <li><a href="../../../blog/2022/jul/5-key-business-benefits-of-data-modernization-in-2022.html">5
+                                        Key
+                                        Business Benefits of Data Modernization in 2022!</a></li>
+                        <li><a href="../../../blog/2022/jul/how-to-fuel-analytics-with-mongodb-in-2022.html">How
+                                        to
+                                        fuel Analytics with MongoDB in 2022?</a></li>
+                        <li><a href="../../../blog/2022/jun/uncover-hidden-customer-insights-with-qualitative-and-quantitative-data-analytics.html">Uncover
+                                        Hidden Customer Insights with Qualitative and Quantitative Data Analytics</a>
+                        </li>
+                        <li><a href="../../../blog/2021/dec/navigating-the-complex-multi-cloud-world-with-ease.html">Navigating
+                                        the
+                                        Complex Multi-Cloud World with Ease</a></li>
+                        <li><a href="../../../blog/2021/oct/how-can-businesses-leverage-knowledge-graphs-to-transform-data-management.html">How
+                                        can Businesses Leverage Knowledge Graphs to Transform Data Management</a></li>
+                        <li><a href="../../../blog/2021/may/how-manufacturers-simplify-data-management-through-multi-cloud.html">How
+                                        Manufacturer’s Simplify Data Management through Multi-Cloud</a></li>
+                        <li><a href="../../../blog/2021/apr/why-data-volume-is-leading-retailers-to-a-new-data-solution.html">Why
+                                        Data Volume is Leading Retailers to a New Data Solution?</a></li>
+                        <li><a href="../../../blog/2021/jan/the-real-cost-of-workers-compensation-fraud.html">The
+                                        Real Cost of Worker’s Compensation Fraud</a></li>
+                        <li><a href="../../../blog/2021/jan/data-talks-the-importance-of-natural-language-processing-in-data-analytics.html">Data
+                                        Talks: The Importance of Natural Language Processing in Data Analytics</a></li>
+                        <li><a href="../../../blog/2020/dec/behind-the-wheel-ahead-of-the-trends-5-ways-auto-companies-can-use-customer-360.html">Behind
+                                        the Wheel, Ahead of the Trends: 5 Ways Auto Companies Can Use Customer 360</a>
+                        </li>
+                        <li><a href="../../../blog/2020/dec/drilling-for-data-5-reasons-the-oil-industry-should-use-the-down-year-to-focus-on-data.html">Drilling
+                                        for Data: 5 Reasons the Oil Industry Should Use the Down Year to Focus on
+                                        Data</a></li>
+                        <li><a href="../../../blog/2020/dec/the-marketers-resolution-for-2021-put-analytics-in-your-wheelhouse.html">The
+                                        Marketers Resolution for 2021? Put Analytics in Your Wheelhouse</a></li>
+                        <li><a href="../../../blog/2020/dec/the-power-of-well-represented-data-with-knowledge-graph.html">The
+                                        Power
+                                        of Well Represented Data With Knowledge Graph</a></li>
+                        <li><a href="../../../blog/2020/oct/top-5-data-management-best-practices.html">Top 5
+                                        Data
+                                        Management Best Practices</a></li>
+                        <li><a href="../../../blog/2020/oct/data-processing-stages-everyone-needs-to-know.html">Data
+                                        Processing Stages Everyone Needs to Know</a></li>
+                        <li><a href="../../../blog/2020/oct/linking-the-right-dots-with-knowledge-graph.html">Connecting
+                                        the dots with Knowledge Graph</a></li>
+                        <li><a href="../../../blog/2020/oct/5-ways-automotive-companies-can-leverage-customer-360.html">5
+                                        Ways
+                                        Automotive Companies Can Leverage Customer 360</a></li>
+                </ul>
+        </div>
+        <!--end-->
+        <!--recent comments code-->
+        <div class="recent-comments">
+                <h3>Recent Comments</h3>
+                <p>No comments to show.</p>
+        </div>
+        <!--end-->
+        <!--archeive code-->
+        <div class="archeive">
+                <h3>Archive</h3>
+                <ul class="list-unstyled">
+                        <li><a href="../../../blog/2023/oct.html">Oct 2023</a></li>
+                        <!-- <li><a href="../../../blog/2023/jul.html">July 2023</a></li> -->
+                        <li><a href="../../../blog/2023/aug.html">Aug 2023</a></li>
+                        <li><a href="../../../blog/2023/jun.html">June 2023</a></li>
+                        <li><a href="../../../blog/2023/may.html">May 2023</a></li>
+                        <li><a href="../../../blog/2023/apr.html">April 2023</a></li>
+                        <li><a href="../../../blog/2023/mar.html">March 2023</a></li>
+                        <!-- <li><a  href="../../../blog/2023/feb.html">February 2023</a></li> -->
+                        <li><a href="../../../blog/2022/oct.html">October 2022</a></li>
+                        <li><a href="../../../blog/2022/sep.html">September 2022</a></li>
+                        <li><a href="../../../blog/2022/jul.html">July 2022</a></li>
+                        <li><a href="../../../blog/2022/jun.html">June 2022</a></li>
+                        <li><a href="../../../blog/2021/dec.html">December 2021</a></li>
+                        <li><a href="../../../blog/2021/oct.html">October 2021</a></li>
+                        <li><a href="../../../blog/2021/may.html">May 2021</a></li>
+                        <li><a href="../../../blog/2021/apr.html">April 2021</a></li>
+                        <li><a href="../../../blog/2021/jan.html">January 2021</a></li>
+                        <li><a href="../../../blog/2020/dec.html">December 2020</a></li>
+                        <li><a href="../../../blog/2020/oct.html">October 2020</a></li>
+                </ul>
+        </div>
+        <!--end-->
+        <div class="categories">
+                <h3>Categories</h3>
+                <ul class="list-unstyled">
+                        <li><a href="../../../blog.html">Blog</a></li>
+                        <!-- <li><a href="javascript:;">Uncategorized</a></li> -->
+                </ul>
+        </div>
+</div>
+
+
+
+<script>
+        function onSearch() {
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                li[i].style.display = "";
+                        } else {
+                                li[i].style.display = "none";
+                        }
+                }
+        }
+</script>
